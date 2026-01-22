@@ -178,7 +178,9 @@ export function HeroSection2() {
       id="hero"
       className={`relative overflow-y-hidden overflow-x-visible pt-20 pb-10 ${instrumentSerif.className}`}
     >
-      <AnimatedGroup variants={transitionVariants} className="max-w-4xl mx-auto px-4">
+      <AnimatedGroup 
+      // @ts-ignore
+      variants={transitionVariants} className="max-w-4xl mx-auto px-4">
         <div
           className={`text-center mb-8 ${
             isVisible ? "opacity-100" : "opacity-0"
