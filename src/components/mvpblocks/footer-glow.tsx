@@ -1,5 +1,7 @@
 "use client";
 
+import { ModeToggle } from "../general/toggle-button";
+
 export default function FooterGlow() {
   return (
     <footer className="relative z-10 mt-8 w-full overflow-hidden pt-16 pb-8">
@@ -149,6 +151,8 @@ export default function FooterGlow() {
       <div className="text-foreground relative z-10 mt-10 text-center text-xs">
         <span>&copy; {new Date().getFullYear()} E-Tailoring. All rights reserved.</span>
       </div>
+                                      <ModeToggle/>
+      
     </footer>
   );
 }

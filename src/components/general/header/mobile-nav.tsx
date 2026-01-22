@@ -5,6 +5,7 @@ import { MenuIcon, XIcon } from "lucide-react";
 import React from "react";
 import { createPortal } from "react-dom";
 import { navLinks } from "./navbar";
+import { ModeToggle } from "../toggle-button";
 
 export function MobileNav() {
 	const [open, setOpen] = React.useState(false);
@@ -75,6 +76,7 @@ export function MobileNav() {
 									Sign In
 								</Button>
 								<Button className="w-full">Get Started</Button>
+                                <ModeToggle/>
 							</div>
 						</div>
 					</div>,
