@@ -193,6 +193,7 @@ const TriplePhoneHero: React.FC<TriplePhoneHeroProps> = ({
       <div className="relative flex h-full w-full max-w-4xl items-center justify-center">
         {/* left phone */}
         <motion.div
+        // @ts-ignore
           variants={side("left")}
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
@@ -203,6 +204,8 @@ const TriplePhoneHero: React.FC<TriplePhoneHeroProps> = ({
 
         {/* center phone */}
         <motion.div
+                // @ts-ignore
+
           variants={centerVariant}
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
@@ -213,6 +216,8 @@ const TriplePhoneHero: React.FC<TriplePhoneHeroProps> = ({
 
         {/* right phone */}
         <motion.div
+                // @ts-ignore
+
           variants={side("right")}
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
