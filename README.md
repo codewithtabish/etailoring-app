@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+The application is designed to work with the following categories of data:
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 🔹 User & Account Data
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Name  
+- Email address  
+- Phone number  
+- User role (Super Admin, Admin, Tailor)  
+- Business or shop-related information (if applicable)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🔹 Customer Data
 
-## Learn More
+- Customer name  
+- Contact information  
+- Order notes (if entered by the user)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🔹 Measurement Data
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Clothing measurements (e.g., shirt, pant, suit, shalwar kameez)  
+- Measurement history linked to customers
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🔹 Order & Transaction Data
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Order records and status  
+- Delivery or completion information  
+- Payment status (paid / due records if enabled)
+
+---
+
+### 🔹 Technical & Usage Data
+
+- App usage data for performance monitoring  
+- Error and crash logs (for debugging and stability)  
+- Device and browser information (web usage)
+
+---
+
+> ⚠️ **Important:**  
+> E-Tailoring does **not sell, trade, or monetize user data**.  
+> All data usage is strictly limited to application functionality, operational needs, and legal compliance.
