@@ -64,7 +64,7 @@ export default function TermsPage() {
 
           <div className="pt-2">
             <Link
-              href="/privacy-policy"
+              href="/privacy_policy"
               className="text-sm font-medium text-slate-800 hover:underline dark:text-slate-200"
             >
               View Privacy Policy →

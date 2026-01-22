@@ -6,14 +6,15 @@ The application is designed to work with the following categories of data:
 ### 🔹 User & Account Data
 
 - Name  
-- Email address  
+- Email address  ****
 - Phone number  
 - User role (Super Admin, Admin, Tailor)  
 - Business or shop-related information (if applicable)
 
----
+---****
+---****
 
-### 🔹 Customer Data
+### 🔹 Customer **Data**
 
 - Customer name  
 - Contact information  
