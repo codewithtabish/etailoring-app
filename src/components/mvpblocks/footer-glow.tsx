@@ -142,7 +142,10 @@ export default function FooterGlow() {
                 <a href="#" className="text-foreground/70 hover:text-foreground transition">
                   Request a Demo
                 </a>
+
+
               </li>
+                                                      <ModeToggle/>
             </ul>
           </div>
         </nav>
@@ -151,7 +154,6 @@ export default function FooterGlow() {
       <div className="text-foreground relative z-10 mt-10 text-center text-xs">
         <span>&copy; {new Date().getFullYear()} E-Tailoring. All rights reserved.</span>
       </div>
-                                      <ModeToggle/>
       
     </footer>
   );

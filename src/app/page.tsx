@@ -40,7 +40,7 @@ const HomePage = () => {
     <ClientFull/>
     {/* <HowItWorksSection/> */}
     <Faq1/>
-    <FooterGlow/>
+    {/* <FooterGlow/> */}
     {/* <TestimonialsColumn testimonials={etailoringTestimonials}/> */}
     {/* <TestimonialsColumn testimonials={etailoringTestimonials}/> */}
     {/* <PhoneCarousel images={exampleImages}/> */}
