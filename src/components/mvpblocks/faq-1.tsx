@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import * as AccordionPrimitive from '@radix-ui/react-accordion';
 import { PlusIcon } from 'lucide-react';
@@ -13,33 +13,51 @@ import {
 const items = [
   {
     id: '1',
-    title: 'What makes MVPBlocks different?',
+    title: 'What is E-Tailoring and who is it for?',
     content:
-      'MVPBlocks is a fully open-source, developer-first component library built using Next.js and TailwindCSS, designed to help you launch your MVPs in record time. No bloated packages, no unnecessary installs—just clean, copyable code to plug right into your next big thing.',
+      'E-Tailoring is a complete digital management system designed specifically for tailors and tailoring shop owners. It helps you manage customer records, measurements, orders, delivery dates, and accounts — all from one simple app.',
   },
   {
     id: '2',
-    title: 'How can I customize the components?',
+    title: 'How does E-Tailoring replace manual registers?',
     content:
-      'All components are built with Tailwind CSS, making them highly customizable. Simply modify the class names or use our theme variables to match your brand. Components also support both light and dark modes out of the box.',
+      'E-Tailoring completely eliminates paper registers. Customer measurements, order details, designs, and history are stored securely and can be accessed instantly anytime, reducing errors and saving valuable time.',
   },
   {
     id: '3',
-    title: 'Are MVPBlocks components responsive?',
+    title: 'What key problems does this app solve for tailors?',
     content:
-      "Absolutely! All components are designed to be fully responsive and work beautifully on all devices, from mobile phones to large desktop screens. We've carefully crafted each component to provide an optimal experience regardless of screen size.",
+      'The app solves common tailoring problems such as lost measurements, incorrect order entries, missed delivery dates, and difficulty managing multiple customers. Everything stays organized and easy to track.',
   },
   {
     id: '4',
-    title: 'Can I use MVPBlocks for commercial projects?',
+    title: 'What features are included in the E-Tailoring system?',
     content:
-      'Yes, all MVPBlocks components are free to use for both personal and commercial projects. No attribution required—just build and launch your MVP faster than ever before.',
+      'Core features include a Digital Order Book, Customer Measurement Profiles, Order Status & Delivery Tracking, and Accounts & Payment Management — all designed to simplify your daily business operations.',
   },
   {
     id: '5',
-    title: 'How do I get started with MVPBlocks?',
+    title: 'Is customer data safe and secure?',
     content:
-      "Simply browse our component library, find the components you need, and copy the code into your project. It's that easy! Our documentation provides clear instructions for installation and usage.",
+      'Yes. Customer data is securely stored with proper data protection measures. Your business records remain private, safe, and accessible only to you, ensuring peace of mind and reliability.',
+  },
+  {
+    id: '6',
+    title: 'Is the app easy to use for non-technical users?',
+    content:
+      'Absolutely. E-Tailoring is built with a tailor-friendly interface, large buttons, and simple navigation. Even users with little or no technical experience can use it comfortably.',
+  },
+  {
+    id: '7',
+    title: 'Can I track order status and delivery dates?',
+    content:
+      'Yes. You can mark orders as Pending, Ready, or Delivered and set delivery dates. This helps you avoid delays, reduce customer complaints, and manage workload efficiently.',
+  },
+  {
+    id: '8',
+    title: 'How does E-Tailoring help grow my tailoring business?',
+    content:
+      'By reducing mistakes, saving time, and improving customer service, E-Tailoring allows you to handle more customers professionally — leading to better reputation, repeat clients, and higher profits.',
   },
 ];
 
@@ -58,7 +76,7 @@ const fadeInAnimationVariants = {
   }),
 };
 
-export default function Faq1() {
+export default function FaqETailoring() {
   return (
     <section className="py-12 md:py-16">
       <div className="container mx-auto max-w-6xl px-4 md:px-6">
@@ -80,8 +98,8 @@ export default function Faq1() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            Everything you need to know about MVPBlocks and how to use our
-            components to build your next project quickly.
+            Everything you need to know about E-Tailoring and how it helps modern
+            tailors manage their business digitally.
           </motion.p>
         </div>
 
@@ -91,7 +109,6 @@ export default function Faq1() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.3 }}
         >
-          {/* Decorative gradient */}
           <div className="bg-primary/10 absolute -top-4 -left-4 -z-10 h-72 w-72 rounded-full blur-3xl" />
           <div className="bg-primary/10 absolute -right-4 -bottom-4 -z-10 h-72 w-72 rounded-full blur-3xl" />
 
@@ -137,6 +154,7 @@ export default function Faq1() {
                       />
                     </AccordionPrimitive.Trigger>
                   </AccordionPrimitive.Header>
+
                   <AccordionContent
                     className={cn(
                       'text-muted-foreground overflow-hidden pt-0 pb-4',

@@ -1,6 +1,7 @@
 import ClientFull from '@/components/general/clinets_full';
 import { FeatureSection } from '@/components/general/feature-section';
 import { Header } from '@/components/general/header/navbar';
+import HowItWorksPro from '@/components/general/how_it_work';
 import HowItWorksSection from '@/components/general/how_it_work';
 import Faq1 from '@/components/mvpblocks/faq-1';
 import FooterGlow from '@/components/mvpblocks/footer-glow';
@@ -35,6 +36,7 @@ const HomePage = () => {
 			{/* <DemoLayout /> */}
     <HeroSection2/>
     <FeatureSection/>
+    {/* <HowItWorksPro/> */}
     <ClientFull/>
     {/* <HowItWorksSection/> */}
     <Faq1/>
