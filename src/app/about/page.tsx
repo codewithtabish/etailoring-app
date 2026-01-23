@@ -8,7 +8,7 @@ export default function AboutPage() {
   const teamMembers: TeamMember[] = [
     {
       id: '1',
-      name: 'Usman Khan',
+      name: 'Muhammad Usman ',
       role: 'Founder • Product & Engineering',
       bio: 'Building E-Tailoring to help tailors manage orders, measurements, and accounts digitally.',
       imageUrl: '/dev.jpeg', // ✅ put image in /public/team/sudais.jpg
@@ -20,7 +20,7 @@ export default function AboutPage() {
     },
     {
       id: '2',
-      name: 'Muhammad Wali',
+      name: 'Talha Tabish',
       role: 'Marketing • Content Strategy',
       bio: 'Creates conversion-focused content for flyers, WhatsApp campaigns, and social media ads.',
       imageUrl: '/team/team1.jpeg', // ✅ /public/team/hayee.jpg
@@ -30,7 +30,7 @@ export default function AboutPage() {
     },
     {
       id: '3',
-      name: 'Sudais Khan',
+      name: 'Haseeb Khan',
       role: 'UI/UX • Design',
       bio: 'Designs clean, mobile-first interfaces optimized for fast daily tailoring workflows.',
       imageUrl: '/team/team2.jpg', // ✅ /public/team/ahsan.jpg

@@ -2,6 +2,7 @@ import ClientFull from '@/components/general/clinets_full';
 import { FeatureSection } from '@/components/general/feature-section';
 import { Header } from '@/components/general/header/navbar';
 import Faq1 from '@/components/mvpblocks/faq-1';
+import SimplePricing from '@/components/mvpblocks/simple-pricing';
 import { HeroSection2 } from '@/components/ui/hero-section-2'
 import { ImageItem, PhoneCarousel } from '@/components/ui/phone-carousel'
 import React from 'react'
@@ -35,6 +36,7 @@ const HomePage = () => {
     <ClientFull/>
     {/* <HowItWorksSection/> */}
     <Faq1/>
+    <SimplePricing/>
     {/* <FooterGlow/> */}
     {/* <TestimonialsColumn testimonials={etailoringTestimonials}/> */}
     {/* <TestimonialsColumn testimonials={etailoringTestimonials}/> */}

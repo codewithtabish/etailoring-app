@@ -12,8 +12,8 @@ import { MobileNav } from './mobile-nav';
 import { ModeToggle } from '../toggle-button';
 
 export const navLinks = [
-  { label: 'Features', href: 'features' },
-  { label: 'Pricing', href: 'pricing' },
+  // { label: 'Features', href: 'features' },
+  // { label: 'Pricing', href: 'pricing' },
   { label: 'About', href: 'about' },
 ];
 
@@ -66,9 +66,9 @@ export function Header() {
 
           <ModeToggle />
 
-          <Button variant="outline" asChild>
+          {/* <Button variant="outline" asChild>
             <Link href="/sign-in">Sign In</Link>
-          </Button>
+          </Button> */}
 
           <Button asChild>
             <Link href="/get-started">Get Started</Link>
